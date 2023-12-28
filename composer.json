@@ -1,0 +1,40 @@
+{
+    "name": "7ts/layout-master",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SevenTS\\LayoutMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "7TS"
+        }
+    ],
+    "description": "Laravel Layout Master",
+    "keywords": [
+        "laravel",
+        "package"
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SevenTS\\LayoutMaster\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SevenTS\\LayoutMaster\\LayoutServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
