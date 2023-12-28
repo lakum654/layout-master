@@ -1,5 +1,5 @@
 {
-    "name": "7ts/layout-master",
+    "name": "lakum/layout-master",
     "type": "library",
     "autoload": {
         "psr-4": {
